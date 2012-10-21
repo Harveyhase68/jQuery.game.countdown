@@ -26,6 +26,7 @@ GameCountDown = new $.GameCountDown();
 GameCountDown.Add({control: '#counter1', seconds: 5});
 
 //Of course a div with the appropriate tag needs to exist:
+
 div id="counter1"></div
 
 Options for GameCountDown:
