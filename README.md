@@ -12,7 +12,7 @@ Game Count Down, displays a text in a div tag, like '9d 15h 12m 34s' and updates
 Any issues and suggestions welcome, write to me at: guthub@predl.cc
 
 You need a copy from jQuery (http://www.jquery.com)
-Download Updates from my script anytime: github/GameCountDown
+Download Updates from my script anytime: https://github.com/Harveyhase68/GameCountDown.git
 
 	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="js/gamecountdown.min.js"></script>
