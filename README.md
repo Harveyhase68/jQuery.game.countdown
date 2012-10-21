@@ -19,15 +19,15 @@ Download Updates from my script anytime: github/GameCountDown
 
 //First of all you need a new countdown class:
 
-GameCountDown = new $.GameCountDown();
+	GameCountDown = new $.GameCountDown();
 
 //Second Add any timer you wish:
 
-GameCountDown.Add({control: '#counter1', seconds: 5});
+	GameCountDown.Add({control: '#counter1', seconds: 5});
 
 //Of course a div with the appropriate tag needs to exist:
 
-div id="counter1"></div
+	div id="counter1"></div
 
 Options for GameCountDown:
 
