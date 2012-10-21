@@ -50,7 +50,9 @@ Options for function Remove:
 
 The countdown will stop for each control
 
-	Remove('#counter1'); only a parameter with a jQuery control ('#counter1' or '.counter' will remove all controls with class 'counter')
+	Remove('#counter1');
+
+only a parameter with a jQuery control ('#counter1' or '.counter' will remove all controls with class 'counter')
 
 Options for function Set:
 
