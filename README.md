@@ -21,7 +21,7 @@ Download Updates from my script anytime: github/GameCountDown
 
 	GameCountDown = new $.GameCountDown();
 
-//Second Add any timer you wish:
+//Second Add any timer you wish (the timer will start immediately):
 
 	GameCountDown.Add({control: '#counter1', seconds: 5});
 
