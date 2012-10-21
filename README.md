@@ -18,13 +18,15 @@ Download Updates from my script anytime: github/GameCountDown
 	<script type="text/javascript" src="js/gamecountdown.min.js"></script>
 
 //First of all you need a new countdown class:
+
 GameCountDown = new $.GameCountDown();
 
 //Second Add any timer you wish:
+
 GameCountDown.Add({control: '#counter1', seconds: 5});
 
 //Of course a div with the appropriate tag needs to exist:
-<div id="counter1"></div>
+div id="counter1"></div
 
 Options for GameCountDown:
 
