@@ -18,13 +18,13 @@ Download Updates from my script anytime: github/GameCountDown
 	<script type="text/javascript" src="js/gamecountdown.min.js"></script>
 
 //First of all you need a new countdown class:
-	GameCountDown = new $.GameCountDown();
+GameCountDown = new $.GameCountDown();
 
 //Second Add any timer you wish:
-	GameCountDown.Add({control: '#counter1', seconds: 5});
+GameCountDown.Add({control: '#counter1', seconds: 5});
 
 //Of course a div with the appropriate tag needs to exist:
-	<div id="counter1"></div>
+<div id="counter1"></div>
 
 Options for GameCountDown:
 
@@ -40,7 +40,7 @@ Options for GameCountDown:
 
 Options for function Add:
 
-	You cannot add two time the same control, use Set if you wish to update a counter anytime.
+You cannot add two time the same control, use Set if you wish to update a counter anytime.
 
 	control: a jQuery control like '#counter1' or '.counter' (will add all controls with class 'counter'
 	seconds: (default 60), amount of seconds to countdown
@@ -48,13 +48,13 @@ Options for function Add:
 
 Options for function Remove:
 
-	The countdown will stop for each control
+The countdown will stop for each control
 
 	Remove('#counter1'); only a parameter with a jQuery control ('#counter1' or '.counter' will remove all controls with class 'counter')
 
 Options for function Set:
 
-	The counter will start new on 'seconds' for each control
+The counter will start new on 'seconds' for each control
 
 	control: a jQuery control like '#counter1' or '.counter' (will add all controls with class 'counter'
 	seconds: (default 60), amount of seconds to countdown
