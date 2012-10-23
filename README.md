@@ -9,7 +9,7 @@ jQuery.game.countdown accecpts only remaining seconds. If you need a specific da
 
 jQuery.game.countdown, displays a text in a div tag, like '9d 15h 12m 34s' and countdown.
 
-Any issues and suggestions welcome, write to me at: guthub@predl.cc
+Any issues and suggestions welcome, write to me at: github@predl.cc
 
 You need a copy from jQuery (http://www.jquery.com)
 
