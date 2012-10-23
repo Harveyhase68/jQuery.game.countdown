@@ -1,18 +1,19 @@
 GameCountDown
 =============
 
-Game Count Down - a jQuery Plugin
+jQuery.game.countdown - a jQuery Plugin
 
 The advantage of this countdown plugin is, many countdowns on a page don't slow down the website, because only one timer exist.
 
-Game Count Down accecpts only remaining seconds. If you need a specific date to count to, this is the wrong plugin for you.
+jQuery.game.countdown accecpts only remaining seconds. If you need a specific date to count to, this is the wrong plugin for you.
 
-Game Count Down, displays a text in a div tag, like '9d 15h 12m 34s' and countdown.
+jQuery.game.countdown, displays a text in a div tag, like '9d 15h 12m 34s' and countdown.
 
 Any issues and suggestions welcome, write to me at: guthub@predl.cc
 
 You need a copy from jQuery (http://www.jquery.com)
-Download Updates from my script anytime: https://github.com/Harveyhase68/GameCountDown.git
+
+Download Updates from my script anytime: https://github.com/Harveyhase68/jQuery.game.countdown or http://www.predl.cc
 
 	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="js/gamecountdown.min.js"></script>
