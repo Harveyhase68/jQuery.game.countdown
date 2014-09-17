@@ -144,15 +144,15 @@ Built For:  jQuery 1.8.x
 			if (d > 0) {
 				result += d + settings.formatday;
 			};
-			h = Math.floor((seconds - (d * 86400)) / 1440);
+			h = Math.floor((seconds - (d * 86400)) / 3600);
 			if (h > 0 || d > 0) {
 				result += h + settings.formathour;
 			};
-			m = Math.floor((seconds - (h * 1440) - (d * 86400)) / 60);
+			m = Math.floor((seconds - (h * 3600) - (d * 86400)) / 60);
 			if (m > 0 || h > 0 || d > 0) {
 				result += m + settings.formatminute;
 			};
-			s = Math.floor((seconds - (m * 60) - (h * 1440) - (d * 86400)));
+			s = Math.floor((seconds - (m * 60) - (h * 3600) - (d * 86400)));
 			if (s >= 0 || m > 0 || h > 0 || d > 0) {
 				result += s + settings.formatsecond;
 			};
